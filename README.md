@@ -6,7 +6,7 @@ Uma aplicação web simples e elegante para visualização de contatos, desenvol
 
 > Interface com lista de contatos, campo de busca e ações por item.
 
-<img src="./images/_LayoutPronto.png" width="400">
+<img src="./images/_Layout.png" width="400">
 
 ## ✨ Funcionalidades
 
@@ -15,7 +15,6 @@ Uma aplicação web simples e elegante para visualização de contatos, desenvol
 - Botão para adicionar novos contatos
 - Ações de **editar** e **deletar** por contato (visíveis no hover)
 - Scroll customizado que preserva o `border-radius` do container
-- Layout responsivo com `max-width` e `flex-wrap`
 
 ## 🛠️ Tecnologias
 
