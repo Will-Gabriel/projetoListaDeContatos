@@ -6,6 +6,8 @@ Uma aplicação web simples e elegante para visualização de contatos, desenvol
 
 > Interface com lista de contatos, campo de busca e ações por item.
 
+<img src="./images/_LayoutPronto.png" width="400">
+
 ## ✨ Funcionalidades
 
 - Listagem visual de contatos com foto, nome e e-mail
