@@ -25,9 +25,11 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    width: 800px;
+    max-width: 800px;
+    min-width: 400px;
     border-bottom: 2px solid #dddedf;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .header-title {
@@ -40,6 +42,7 @@ body {
     justify-content: flex-end;
     gap: 10px;
     width: 50%;
+    flex-wrap: wrap;
 }
 
 .search-box input {
@@ -48,11 +51,6 @@ body {
     font-size: 20px;
     border: 2px solid #dddedf;
     color: #0f172a;
-    border: none;
-}
-
-.search-box input {
-    border: none;
 }
 
 .search-box button {
@@ -112,6 +110,7 @@ body {
     padding: 15px;
     margin-bottom: 10px;
     background-color: #f0f2f3;
+    transition: border-color 0.3s ease;
 }
 
 .list-item:hover {
@@ -146,8 +145,9 @@ body {
     gap: 16px;
     align-items: center;
     opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .list-item:hover .list-item__actions {
-    opacity: 0.3;
+    opacity: 1;
 }
